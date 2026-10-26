@@ -1,7 +1,7 @@
 // Use the Vite dev-server proxy so the browser calls the frontend origin.
 // const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || '/api';
-const API_BASE_URL =  'https://backend.clf.intellimanagement.com/api'
-;
+const API_BASE_URL =  'https://backend.clf.intelligrp.com/api';
+// const API_BASE_URL =  'http://localhost:8000/api';
 
 export const resolveMediaUrl = (path) => {
   if (!path) return '';
